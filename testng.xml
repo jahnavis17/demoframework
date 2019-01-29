@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="LaunchSuite" verbose="1">
+	<listeners>
+		<listener class-name="com.techfundas.demoframework.utilities.IListeners"></listener>
+	</listeners>
+	<test name="Launch Tests">
+		<classes>
+			<class name="com.techfundas.demoframework.test.HomeTest" />
+		</classes>
+	</test>
+</suite>
