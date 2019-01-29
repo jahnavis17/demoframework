@@ -16,8 +16,8 @@ private static WebDriver driver;
 	
 	public static WebDriver createDriver(){
 		String env = "winChromePath";
-		String winChromePath = "C:/Program Files (x86)/Jenkins/workspace/AutomationDemo/src/test/java/resources/chromedriver.exe";
-		String linuxChromePath = "C:/Users/Hp/Appium_Demo/demoframework/src/test/java/resources/chromedriver";
+		String winChromePath = "C:/Users/Hari/Desktop/GITHUB/demoframework/src/test/java/resources/chromedriver.exe";
+		String linuxChromePath = "C:/Users/Hari/Desktop/GITHUB/demoframework/src/test/java/resources/chromedriver";
 
 		if (env.equals("winChromePath")) {
 			System.setProperty("webdriver.chrome.driver", winChromePath);
